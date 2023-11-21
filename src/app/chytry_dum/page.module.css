@@ -1,0 +1,39 @@
+.card {
+  /* white card with rounded corners */
+  background-color: white;
+  border-radius: 10px;
+  /* shadow */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+  /* padding */
+  padding: 1rem 2.5rem;
+  width: fit-content;
+}
+
+.card:hover {
+  cursor: pointer;
+}
+
+.text-dark {
+  color: #333; /* or any dark color */
+}
+
+.text-center {
+  text-align: center;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6rem;
+  min-height: 100vh;
+}
+
+.row {
+  display: flex;
+  background-color: rgb(125, 100, 237);
+  padding: 1rem;
+  gap: 0.5rem;
+  border-radius: 0.5rem;
+}
